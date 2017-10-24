@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="tic_tac_toe.css" />
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="tic_tac_toe.js"></script>
+    <title>Title</title>
+</head>
+<body>
+
+<h1>Tic tac toe</h1>
+
+
+<!--Board-->
+
+<div class="row">
+
+    <div class="board">
+        <div class="board-row border-bottom">
+            <div class="col-xs-4 square border-right" data-row="0" data-column="0"></div>
+            <div class="col-xs-4 square border-right" data-row="0" data-column="1"></div>
+            <div class="col-xs-4 square" data-row="0" data-column="2"></div>
+        </div>
+        <div class="board-row border-bottom">
+            <div class="col-xs-4 square border-right" data-row="1" data-column="0"></div>
+            <div class="col-xs-4 square border-right" data-row="1" data-column="1"></div>
+            <div class="col-xs-4 square" data-row="1" data-column="2"></div>
+        </div>
+        <div class="board-row">
+            <div class="col-xs-4 square border-right" data-row="2" data-column="0"></div>
+            <div class="col-xs-4 square border-right" data-row="2" data-column="1"></div>
+            <div class="col-xs-4 square" data-row="2" data-column="2"></div>
+        </div>
+    </div>
+
+</div>
+
+<p>
+    <strong>Turn: </strong> <span class="turn">Your turn</span>
+</p>
+
+</body>
+</html>
